@@ -22,7 +22,7 @@
 #pragma config FSOSCEN = OFF                // Secondary Oscillator Enable
 #pragma config IESO = OFF                   // Internal External Switchover
 #pragma config POSCMOD = EC                 // Primary Oscillator Configuration
-#pragma config OSCIOFNC = OFF               // CLKO Enable Configuration
+#pragma config OSCIOFNC = ON                // CLKO Enable Configuration
 #pragma config FCKSM = CSECME               // Clock Switching and Monitoring Selection Configuration
 #pragma config WDTPS = PS1048576            // Watchdog Timer Postscale Select
 #pragma config WDTSPGM = STOP               // Watchdog Timer Stop During Flash Programming
